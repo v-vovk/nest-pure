@@ -66,7 +66,7 @@ export class User extends Model<User, UserCreationAttrs> {
     description: 'ban reason',
   })
   @Column({
-    type: DataType.BOOLEAN,
+    type: DataType.STRING,
     allowNull: true,
   })
   banReason: string;
